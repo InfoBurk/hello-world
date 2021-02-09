@@ -25,12 +25,8 @@
 		<link href="assets/css/animate.css" rel="stylesheet" type="text/css" />
 		<link href="assets/css/superslides.css" rel="stylesheet" type="text/css" />
 
-		<!-- REVOLUTION SLIDER -->
-		<link href="assets/plugins/revolution-slider/css/settings.css" rel="stylesheet" type="text/css" />
-
 		<!-- THEME CSS -->
-		<link href="assets/css/essentials.css" rel="stylesheet" type="text/css" />
-		<link href="assets/css/layout.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/essentials.css" rel="stylesheet" type="text/css" />		<link href="assets/css/layout.css" rel="stylesheet" type="text/css" />
 		<link href="assets/css/layout-responsive.css" rel="stylesheet" type="text/css" />
 		<link href="assets/css/color_scheme/orange.css" rel="stylesheet" type="text/css" /><!-- orange: default style -->
 		<!--<link id="css_dark_skin" href="assets/css/layout-dark.css" rel="stylesheet" type="text/css" />--><!-- DARK SKIN -->
@@ -48,8 +44,6 @@
 		<link href="assets/css/color_scheme/lightgrey.css" rel="alternate stylesheet" type="text/css" title="lightgrey" />
 		<!-- /styleswitcher - demo only -->
 		
-		
-
 		<!-- STYLESWITCHER - REMOVE ON PRODUCTION/DEVELOPMENT -->
 		<link href="assets/plugins/styleswitcher/styleswitcher.css" rel="stylesheet" type="text/css" />		
 
@@ -58,111 +52,8 @@
 	</head>
 	<body><!-- Available classes for body: boxed , pattern1...pattern10 . Background Image - example add: data-background="assets/images/boxed_background/1.jpg"  -->
 
-		<!-- Top Bar -->
-		<header id="topHead">
-			<div class="container">
-
-				<!-- PHONE/EMAIL -->
-				<span class="quick-contact pull-left">
-					<i class="fa fa-phone"></i> 1800-555-1234 &bull; 
-					<a class="hidden-xs" href="mailto:mail@yourdomain.com">mail@domain.com</a>
-				</span>
-				<!-- /PHONE/EMAIL -->
-
-				<!-- LANGUAGE -->
-				<div class="btn-group pull-right hidden-xs">
-					<button class="dropdown-toggle language" type="button" data-toggle="dropdown">
-						<img src="assets/images/flags/us.png" width="16" height="11" alt="EN Language" /> English <span class="caret"></span>
-					</button>
-
-					<ul class="dropdown-menu">
-						<li>
-							<a href="#">
-								<img src="assets/images/flags/us.png" width="16" height="11" alt="EN Language" /> [US] English
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<img src="assets/images/flags/de.png" width="16" height="11" alt="DE Language" /> [DE] German
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<img src="assets/images/flags/fr.png" width="16" height="11" alt="FR Language" /> [FR] French
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<img src="assets/images/flags/ru.png" width="16" height="11" alt="RU Language" /> [RU] Russian
-							</a>
-						</li>
-					</ul>
-				</div>
-				<!-- /LANGUAGE -->
-
-
-				<!-- SIGN IN -->
-				<div class="pull-right nav signin-dd">
-					<a id="quick_sign_in" href="page-signin.html" data-toggle="dropdown"><i class="fa fa-users"></i><span class="hidden-xs"> Sign In</span></a>
-					<div class="dropdown-menu" role="menu" aria-labelledby="quick_sign_in">
-
-						<h4>Sign In</h4>
-						<form action="page-signin.html" method="post" role="form">
-
-							<div class="form-group"><!-- email -->
-								<input required type="email" class="form-control" placeholder="Username or email">
-							</div>
-
-							<div class="input-group">
-
-								<!-- password -->
-								<input required type="password" class="form-control" placeholder="Password">
-								
-								<!-- submit button -->
-								<span class="input-group-btn">
-									<button class="btn btn-primary">Sign In</button>
-								</span>
-
-							</div>
-
-							<div class="checkbox"><!-- remmember -->
-								<label>
-									<input type="checkbox"> Remember me &bull; <a href="page-signin.html">Forgot password?</a>
-								</label>
-							</div>
-
-						</form>
-
-						<hr />
-						
-						<a href="#" class="btn-facebook fullwidth radius3"><i class="fa fa-facebook"></i> Connect With Facebook</a>
-						<a href="#" class="btn-twitter fullwidth radius3"><i class="fa fa-twitter"></i> Connect With Twitter</a>
-						<!--<a href="#" class="btn-google-plus fullwidth radius3"><i class="fa fa-google-plus"></i> Connect With Google</a>-->
-
-						<p class="bottom-create-account">
-							<a href="page-signup.html">Manual create account</a>
-						</p>
-					</div>
-				</div>
-				<!-- /SIGN IN -->
-
-				<!-- CART MOBILE BUTTON -->
-				<a class="pull-right" id="btn-mobile-quick-cart" href="shop-cart.html"><i class="fa fa-shopping-cart"></i></a>
-				<!-- CART MOBILE BUTTON -->
-
-				<!-- LINKS -->
-				<div class="pull-right nav hidden-xs">
-					<a href="page-about-us.html"><i class="fa fa-angle-right"></i> About</a>
-					<a href="contact-us.html"><i class="fa fa-angle-right"></i> Contact</a>
-				</div>
-				<!-- /LINKS -->
-
-			</div>
-		</header>
-		<!-- /Top Bar -->
-
 		<!-- TOP NAV -->
-		<header id="topNav" class="topHead"><!-- remove class="topHead" if no topHead used! -->
+		<header id="topNav">
 			<div class="container">
 
 				<!-- Mobile Menu Button -->
@@ -179,7 +70,7 @@
 				<div class="navbar-collapse nav-main-collapse collapse pull-right">
 					<nav class="nav-main mega-menu">
 						<ul class="nav nav-pills nav-main scroll-menu" id="topMain">
-							<li class="dropdown active">
+							<li class="dropdown">
 								<a class="dropdown-toggle" href="#">
 									Home <i class="fa fa-angle-down"></i>
 								</a>
@@ -209,7 +100,6 @@
 									<li><a href="church-home.html">Church</a></li>
 									<li><a href="medical-home.html">Medical</a></li>
 									<li><a href="college-home.html">College</a></li>
-									<li class="divider"></li>
 									<li><a href="onepage-superslides.html" target="_blank">Onepage - Superslides</a></li>
 									<li><a href="onepage-revolution.html" target="_blank">Onepage - Revolution</a></li>
 									<li><a href="index-more.html">More...</a></li>
@@ -363,7 +253,7 @@
 									</li>
 								</ul>
 							</li>
-							<li class="dropdown">
+							<li class="dropdown active">
 								<a class="dropdown-toggle" href="#">
 									<b>Special</b> <i class="fa fa-angle-down"></i>
 								</a>
@@ -440,55 +330,6 @@
 								<!-- /search form -->
 							</li>
 							<!-- /GLOBAL SEARCH -->
-
-							<!-- QUICK SHOP CART -->
-							<li class="quick-cart">
-								<span class="badge pull-right">3</span>
-								
-								<div class="quick-cart-content">
-
-									<p><i class="fa fa-warning"></i> You have 3 products on your cart</p>
-
-									<a class="item" href="shop-product-full-width.html"><!-- item 1 -->
-										<img class="pull-left" src="assets/images/demo/shop/thumb/1.jpg" width="40" alt="quick cart" />
-										<div class="inline-block">
-											<span class="title">Man shirt XL</span>
-											<span class="price">2 &times; $44.00</span>
-										</div>
-									</a><!-- /item 1 -->
-
-									<a class="item" href="shop-product-full-width.html"><!-- item 2 -->
-										<img class="pull-left" src="assets/images/demo/shop/thumb/2.jpg" width="40" alt="quick cart" />
-										<div class="inline-block">
-											<span class="title">Great Black Shoes For Man and Only Man...</span>
-											<span class="price">2 &times; $44.00</span>
-										</div>
-									</a><!-- /item 2 -->
-
-									<a class="item" href="shop-product-full-width.html"><!-- item 3 -->
-										<img class="pull-left" src="assets/images/demo/shop/thumb/4.jpg" width="40" alt="quick cart" />
-										<div class="inline-block">
-											<span class="title">Pink Lady Perfect Shoes</span>
-											<span class="price">1 &times; $67.32</span>
-										</div>
-									</a><!-- /item 3 -->
-
-									<!-- QUICK CART BUTTONS -->
-									<div class="row cart-footer">
-										<div class="col-md-6 nopadding-right">
-											<a href="shop-cart.html" class="btn btn-primary btn-xs fullwidth">VIEW CART</a>
-										</div>
-										<div class="col-md-6 nopadding-left">
-											<a href="shop-cc-pay.html" class="btn btn-info btn-xs fullwidth">CHECKOUT</a>
-										</div>
-									</div>
-									<!-- /QUICK CART BUTTONS -->
-
-								</div>
-
-							</li>
-							<!-- /QUICK SHOP CART -->
-
 
 						</ul>
 					</nav>
@@ -574,442 +415,545 @@
 
 		<!-- WRAPPER -->
 		<div id="wrapper">
-			
-			<!-- REVOLUTION SLIDER -->
-			<div class="fullwidthbanner-container roundedcorners">
-				<div class="fullwidthbanner">
-					<ul>	
+			<div class="container magazine top-no-header">
 
-						<!-- SLIDE  -->
-						<li data-transition="fade" data-slotamount="7" data-masterspeed="1500">
-
-							<!-- COVER IMAGE -->
-							<img src="assets/images/demo/revolution_slider/sliderbg.jpg" alt="" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
-
-							<!-- LAYER NR. 1 -->
-							<div class="tp-caption lightgrey_divider skewfromrightshort customout"
-								data-x="85"
-								data-y="224"
-								data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-								data-speed="500"
-								data-start="1200"
-								data-easing="Power4.easeOut"
-								data-endspeed="500"
-								data-endeasing="Power4.easeIn"
-								data-captionhidden="off"
-								style="z-index: 2">
-							</div>
-
-							<!-- LAYER NR. 2 -->
-							<div class="tp-caption customin customout"
-								data-x="right" data-hoffset="-220"
-								data-y="bottom" data-voffset="0"
-								data-customin="x:50;y:150;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.5;scaleY:0.5;skewX:0;skewY:0;opacity:0;transformPerspective:0;transformOrigin:50% 50%;"
-								data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-								data-speed="800"
-								data-start="700"
-								data-easing="Power4.easeOut"
-								data-endspeed="500"
-								data-endeasing="Power4.easeIn"
-								style="z-index: 3"><img src="assets/images/demo/revolution_slider/desktop_slider_2.png" alt="">
-							</div>
-
-							<!-- LAYER NR. 2 -->
-							<div class="tp-caption customin customout"
-								data-x="right" data-hoffset="-100"
-								data-y="bottom" data-voffset="0"
-								data-customin="x:50;y:150;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.5;scaleY:0.5;skewX:0;skewY:0;opacity:0;transformPerspective:0;transformOrigin:50% 50%;"
-								data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-								data-speed="1500"
-								data-start="700"
-								data-easing="Elastic.easeInOut"
-								data-endspeed="500"
-								data-endeasing="Power1.easeIn"
-								style="z-index: 3"><img src="assets/images/demo/revolution_slider/slider_run.png" alt="">
-							</div>
-
-							<!-- LAYER NR. 3 -->
-							<div class="tp-caption large_bold_grey skewfromrightshort customout"
-								data-x="80"
-								data-y="66"
-								data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-								data-speed="500"
-								data-start="800"
-								data-easing="Back.easeOut"
-								data-endspeed="500"
-								data-endeasing="Power4.easeIn"
-								data-captionhidden="off"
-								style="z-index: 4">Powerful
-							</div>
-
-							<!-- LAYER NR. 4 -->
-							<div class="tp-caption large_bold_grey skewfromleftshort customout"
-								data-x="80"
-								data-y="122"
-								data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-								data-speed="300"
-								data-start="1100"
-								data-easing="Back.easeOut"
-								data-endspeed="500"
-								data-endeasing="Power4.easeIn"
-								data-captionhidden="off"
-								style="z-index: 7">Multipurpose
-							</div>
-
-							<!-- LAYER NR. 5 -->
-							<div class="tp-caption small_thin_grey customin customout"
-								data-x="80"
-								data-y="230"
-								data-customin="x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;"
-								data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-								data-speed="500"
-								data-start="1300"
-								data-easing="Power4.easeOut"
-								data-endspeed="500"
-								data-endeasing="Power4.easeIn"
-								data-captionhidden="off"
-								style="z-index: 8">
-								Atropos Multipurpose Template, now offering you<br /> 
-								over 110 html pages fully customizable and very<br /> 
-								easy to use! <strong>Lifetime free update!</strong><br />
-								<a href="index-more.html">Read more...</a>
-							</div>
-
-							<!-- LAYER NR. 6 -->
-							<div class="tp-caption large_bold_darkblue skewfromleftshort customout"
-								data-x="80" data-hoffset="-90"
-								data-y="350"
-								data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-								data-speed="500"
-								data-start="1600"
-								data-easing="Back.easeOut"
-								data-endspeed="500"
-								data-endeasing="Power4.easeIn"
-								data-captionhidden="off"
-								style="z-index: 10">110+
-							</div>
-
-							<!-- LAYER NR. 7 -->
-							<div class="tp-caption medium_bg_darkblue skewfromleftshort customout"
-								data-x="80" data-hoffset="-90"
-								data-y="410"
-								data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-								data-speed="500"
-								data-start="1650"
-								data-easing="Back.easeOut"
-								data-endspeed="500"
-								data-endeasing="Power4.easeIn"
-								data-captionhidden="off"
-								style="z-index: 11">Html Pages
-							</div>
-
-							<div class="tp-caption medium_bold_orange skewfromleftshort customout start font300"
-								data-x="230" data-hoffset="-90"
-								data-y="370"
-								data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-								data-speed="500"
-								data-start="1850"
-								data-easing="Back.easeOut"
-								data-endspeed="500"
-								data-endeasing="Power4.easeIn"
-								data-captionhidden="off"
-								style="z-index: 13;">Fully <strong>Responsive</strong>
-							</div>
-
-							<!-- LAYER NR. 8 -->
-							<div class="tp-caption medium_bg_orange skewfromleftshort customout"
-								data-x="230" data-hoffset="-90"
-								data-y="410"
-								data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-								data-speed="500"
-								data-start="2300"
-								data-easing="Back.easeOut"
-								data-endspeed="500"
-								data-endeasing="Power4.easeIn"
-								data-captionhidden="off"
-								style="z-index: 21">Customizable Pages
-							</div>
-
-						</li>
-
-						<!-- SLIDE  -->
-						<li data-transition="3dcurtain-vertical" data-slotamount="14"  data-masterspeed="300" data-delay="10000">
-
-							<!-- COVER IMAGE -->
-							<img src="assets/images/demo/revolution_slider/slider7.jpg" alt="" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat" />
-
-							<div class="tp-caption lft boxshadow" 
-								data-x="70" 
-								data-y="70" 
-								data-speed="900" 
-								data-start="500" 
-								data-easing="easeOutBack">
-								<iframe src='http://player.vimeo.com/video/8408210?title=0&amp;byline=0&amp;portrait=0;api=1' width='640' height='360' style='width:640px; height:360px;'></iframe>
-							</div>
-
-							<div class="tp-caption sft large_bold_grey" 
-								data-x="750" 
-								data-y="70" 
-								data-speed="300" 
-								data-start="1200" 
-								data-easing="easeOutExpo">FEATURED
-							</div>
-
-							<div class="tp-caption sft modern_big_redbg" 
-								data-x="750" 
-								data-y="164" 
-								data-speed="300" 
-								data-start="1300" 
-								data-easing="easeOutExpo">Best With Atropos
-							</div>
-
-							<div class="tp-caption lfb thinheadline_dark" 
-								data-x="750" 
-								data-y="210" 
-								data-speed="300" 
-								data-start="1400" 
-								data-easing="easeOutExpo">You can easily add
-							</div>
-
-							<div class="tp-caption lfb thinheadline_dark" 
-								data-x="750" 
-								data-y="244" 
-								data-speed="300" 
-								data-start="1500" 
-								data-easing="easeOutExpo">Vimeo &amp; Youtube Videos
-							</div>
-
-							<div class="tp-caption lfb thinheadline_dark" 
-								data-x="750" 
-								data-y="278" 
-								data-speed="300" 
-								data-start="1600" 
-								data-easing="easeOutExpo">to your Slides
-							</div>
-
-							<div class="tp-caption lfb medium_bg_darkblue" 
-								data-x="750" 
-								data-y="390" 
-								data-speed="300" 
-								data-start="1600" 
-								data-easing="easeOutExpo"><i class="fa fa-html5"></i> HTML5
-							</div>
-
-							<div class="tp-caption lfb medium_bg_orange" 
-								data-x="860" 
-								data-y="390" 
-								data-speed="300" 
-								data-start="1600" 
-								data-easing="easeOutExpo"><i class="fa fa-css3"></i> CSS3
-							</div>
-
-						</li>
-
-						<!-- SLIDE -->
-						<li data-transition="incube-horizontal" data-slotamount="5" data-masterspeed="700" >
-
-							<!-- COVER IMAGE -->
-							<img src="assets/images/demo/revolution_slider/church_parallax.jpg" alt="" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
-
-							<div class="tp-caption large_text sft"
-								data-x="center"
-								data-y="130"
-								data-speed="300"
-								data-start="1000"
-								data-endspeed="500"
-								data-easing="easeOutBack"><h1>ATROPOS</h1>
-							</div>
-
-							<div class="tp-caption large_text sft"
-								data-x="center"
-								data-y="260"
-								data-speed="300"
-								data-start="1700"
-								data-endspeed="500"
-								data-easing="easeOutBack"><h2>MULTIPURPOSE TEMPLATE</h2>
-							</div>
-
-							<div class="tp-caption large_text sft"
-								data-x="center"
-								data-y="360"
-								data-customin="x:-150;y:-280;z:0;rotationX:-140;rotationY:-280;rotationZ:-220;scaleX:1.5;scaleY:0;skewX:57;skewY:60;opacity:0;transformPerspective:600;transformOrigin:120% 190%;"
-								data-customout="x:-450;y:-430;z:-30;rotationX:90;rotationY:-290;rotationZ:-20;scaleX:1;scaleY:2.8;skewX:59;skewY:4;opacity:0;transformPerspective:600;transformOrigin:70% 0%;"
-								data-speed="1500"
-								data-endspeed="500"
-								data-start="2700"
-								data-endeasing="Bounce.easeOut"
-								data-easing="Back.easeInOut">
-								<a class="btn btn-primary btn-lg" target="_blank" href="https://wrapbootstrap.com/theme/atropos-responsive-website-template-WB05SR527">BUY ATROPOS</a>
-							</div>
-
-						</li>
-
-					</ul>
-					<div class="tp-bannertimer"></div>
-				</div>
-			</div>
-			<!-- /REVOLUTION SLIDER -->
-
-
-			<section class="container text-center">
-				<h1 class="text-center">
-					<strong>Welcome</strong> to Atropos
-					<span class="subtitle">COME ON, DON'T BE SHY! TODAY WE DON'T BITE!</span>
-				</h1>
-				<p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque. Ut enim massa, sodales tempor convallis et, iaculis ac massa.</p>
-			</section>
-
-
-			<div class="container">
-				<hr class="half-margins" /><!-- hr line -->
-			</div>
-
-
-			<!-- FEATURED BOXES 3 -->
-			<section class="container">
-				<div class="row">
-					<div class="col-md-3">
-						<div class="featured-box nobg border-only">
-							<div class="box-content">
-								<i class="fa fa-users"></i>
-								<h4>For Everyone</h4>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3">
-						<div class="featured-box nobg border-only left-separator">
-							<i class="fa fa-book"></i>
-							<h4>Well Documented</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-						</div>
-					</div>
-					<div class="col-md-3">
-						<div class="featured-box nobg border-only left-separator">
-							<i class="fa fa-trophy"></i>
-							<h4>For Your Business</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-						</div>
-					</div>
-					<div class="col-md-3">
-						<div class="featured-box nobg border-only left-separator">
-							<i class="fa fa-cogs"></i>
-							<h4>Highly Customizable</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-						</div>
-					</div>
-				</div>
-			</section>
-			<!-- /FEATURED BOXES 3 -->
-
-
-			<div class="container">
-				<hr class="no-lines" /><!-- hr line -->
-			</div>
-
-
-			<!-- CAROUSEL -->
-			<section class="container">
 				<div class="row">
 
-					<div class="col-md-6">
-						<h2>Passion, precision and simplicity</h2>
-						<p>Lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing</a> elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque. Ut enim massa, sodales tempor convallis et, iaculis ac massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque. Ut enim massa, sodales tempor convallis et, iaculis ac massa.</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, <strong>commodo a sodales sed</strong>, dignissim pretium nunc. Nam et lacus neque. Ut enim massa, sodales tempor convallis et, <strong>iaculis ac massa</strong>.</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et <a href="#">lacus neque</a>. Ut enim massa, sodales tempor convallis et, iaculis ac massa.</p>
+					<!-- center column -->
+					<div class="col-md-9">
 
-						<!-- divider -->
-						<div class="divider styleColor">
-							<i class="fa fa-leaf"></i>
+						<header class="page-title">
+							<h1>Boulder smashes through Italian farm</h1>
+							<ul class="star-rated styleSecondColor pull-right">
+								<li><i class="fa fa-star"></i></li>
+								<li><i class="fa fa-star"></i></li>
+								<li><i class="fa fa-star"></i></li>
+								<li><i class="fa fa-star-o"></i></li>
+								<li><i class="fa fa-star-o"></i></li>
+							</ul>
+							<small class="block styleCoor fsize13">
+								<a href="blog.html" class="label label-default light"><i class="fa fa-dot-circle-o"></i> Politics</a> 
+								<a href="#comments" class="scrollTo label label-default light"><i class="fa fa-comment-o"></i> 3 Comments</a>
+								<span class="label label-default light">June 29, 2014</span> 
+							</small>
+
+						</header>
+
+						<div class="divider half-margins"><!-- divider -->
+							<i class="fa fa-star"></i>
 						</div>
 
-						<!-- carousel -->
-						<div class="owl-carousel" data-plugin-options='{"items": 3, "singleItem": false, "pagination": false, "autoPlay": true}'>
+						<p class="lead">Proin eget tortor risus. Cras ultricies ligula sed magna dictum porta. Pellentesque in ipsum id orci porta dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porttitor accumsan tincidunt.</p>
+
+						<!-- 
+							carousel 
+							900px images required!
+						-->
+						<div class="owl-carousel controlls-over" data-plugin-options='{"autoPlay":false, "stopOnHover":false, "items": 1, "singleItem": true, "navigation": true, "pagination": true, "transitionStyle":"fadeUp", "itemsScaleUp":true}'>
 							<div>
-								<img class="img-responsive" src="assets/images/demo/brands/1.jpg" alt="">
+ 								<div class="owl-caption text-left">
+									<p class="hidden-xs"><!-- hide on mobile -->
+										China's 'bulldozer' mayor kicked out of party, handed to prosecutors
+									</p>
+								</div>
+								<img alt="" class="img-responsive" src="assets/images/demo/magazine/article/1.jpg" width="900" />
 							</div>
 							<div>
-								<img class="img-responsive" src="assets/images/demo/brands/2.jpg" alt="">
-							</div>
-							<div>
-								<img class="img-responsive" src="assets/images/demo/brands/3.jpg" alt="">
-							</div>
-							<div>
-								<img class="img-responsive" src="assets/images/demo/brands/4.jpg" alt="">
-							</div>
-							<div>
-								<img class="img-responsive" src="assets/images/demo/brands/5.jpg" alt="">
-							</div>
-							<div>
-								<img class="img-responsive" src="assets/images/demo/brands/6.jpg" alt="">
-							</div>
-							<div>
-								<img class="img-responsive" src="assets/images/demo/brands/7.jpg" alt="">
-							</div>
-							<div>
-								<img class="img-responsive" src="assets/images/demo/brands/8.jpg" alt="">
+								<div class="owl-caption text-left">
+									<p class="hidden-xs"><!-- hide on mobile -->
+										China's 'bulldozer' mayor kicked out of party, handed to prosecutors
+									</p>
+								</div>
+								<img alt="" class="img-responsive" src="assets/images/demo/magazine/article/3.jpg" width="900" />
 							</div>
 						</div>
+						<!-- /carousel -->
+
+
+						<!-- optional gallery -->
+						<div class="row lightbox" data-plugin-options='{"delegate": "a", "gallery": {"enabled": true}}'>
+							<div class="col-md-2">
+								<a class="img-thumbnail" href="assets/images/demo/magazine/article/1.jpg">
+									<img class="img-responsive" src="assets/images/demo/magazine/article/thumb_1.jpg" alt="" />
+								</a>
+							</div>
+							<div class="col-md-2">
+								<a class="img-thumbnail" href="assets/images/demo/magazine/article/2.jpg">
+									<img class="img-responsive" src="assets/images/demo/magazine/article/thumb_2.jpg" alt="" />
+								</a>
+							</div>
+							<div class="col-md-2">
+								<a class="img-thumbnail" href="assets/images/demo/magazine/article/3.jpg">
+									<img class="img-responsive" src="assets/images/demo/magazine/article/thumb_3.jpg" alt="" />
+								</a>
+							</div>
+							<div class="col-md-2">
+								<a class="img-thumbnail" href="assets/images/demo/magazine/article/4.jpg">
+									<img class="img-responsive" src="assets/images/demo/magazine/article/thumb_4.jpg" alt="" />
+								</a>
+							</div>
+						</div>
+
+						<hr class="half-margins" /><!-- optional gallery separator -->
+						<!-- /optional gallery -->
+
+						<article>
+							<p class="dropcap">Aliquam fringilla, sapien eget scelerisque placerat, lorem libero cursus lorem, sed sodales lorem libero eu sapien. Nunc mattis feugiat justo vel faucibus. Nulla consequat feugiat malesuada. Ut justo nulla, <strong>facilisis vel molestie id</strong>, dictum ut arcu. Nunc ipsum nulla, eleifend non blandit quis, luctus quis orci. Cras blandit turpis mattis nulla ultrices interdum. Mauris pretium pretium dictum. Nunc commodo, felis sed dictum bibendum, risus justo iaculis dui, nec euismod orci sem eget neque. Donec in metus metus, vitae eleifend lorem. Ut vestibulum gravida venenatis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque suscipit tincidunt magna non mollis. Fusce tempus tincidunt nisi, in luctus elit pellentesque quis. Sed velit mi, ullamcorper ut tempor ut, mattis eu lacus. Morbi rhoncus aliquet tellus, id accumsan enim sollicitudin vitae.</p>
+							<p>Vivamus <a href="#">magna justo</a>, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta. Curabitur aliquet quam id dui posuere blandit. Sed porttitor lectus nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Nulla porttitor accumsan tincidunt.</p>
+							
+							<!-- BLOCKQUOTE -->
+							<blockquote>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+								<cite>Source Title</cite>
+							</blockquote>
+
+							<p>Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.Quisque velit nisi, pretium ut lacinia in, elementum id enim. Sed porttitor lectus nibh. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Donec rutrum congue leo eget malesuada. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Pellentesque in ipsum id orci porta dapibus. Nulla quis lorem ut libero malesuada feugiat. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.</p>
+							<p>Proin eget tortor risus. Cras ultricies ligula sed magna dictum porta. Pellentesque in ipsum id orci porta dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porttitor accumsan tincidunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						</article>
+
+
+						<!-- TAGS -->
+						<p class="fsize16"> Tags:
+							<a class="label label-default light" href="#"><i class="fa fa-tags"></i> Business</a> 
+							<a class="label label-default light" href="#"><i class="fa fa-tags"></i> Design</a> 
+							<a class="label label-default light" href="#"><i class="fa fa-tags"></i> Technology</a> 
+						</p>
+
+						
+						<!-- CALLOUT -->
+						<div class="row bs-callout">
+							<div class="col-md-8 text-center">
+								<h3 class="padding20">Subscribe <strong>now</strong> and get the <strong>latest</strong> news.</h3>
+							</div>
+							<div class="col-md-4">
+
+								<p class="nomargin">Type your best E-mail Address</p>
+
+								<form method="get" action="#" class="input-group">
+									<input type="text" class="form-control" name="k" id="k" value="" placeholder="E-mail Address" />
+									<span class="input-group-btn">
+										<button class="btn btn-primary"><i class="fa fa-search"></i></button>
+									</span>
+								</form>
+
+							</div>
+						</div>
+						<!-- /CALLOUT -->
+
+						<!-- COMMENTS -->
+						<div class="row">
+							<div class="col-md-12">
+								<div id="comments">
+									<h4>3 Comments</h4>
+
+									<!-- comment item -->
+									<div class="comment">
+
+										<!-- user-avatar -->
+										<span class="user-avatar">
+											<img class="pull-left media-object" src="assets/images/avatar.png" width="64" height="64" alt="">
+										</span>
+
+										<div class="media-body">
+											<a href="#commentForm" class="scrollTo replyBtn">reply</a>
+											<h4 class="media-heading bold">John Doe</h4>
+											<small class="block">June 29, 2014 - 11:23</small>
+											Proin eget tortor risus. Cras ultricies ligula sed magna dictum porta. Pellentesque in ipsum id orci porta dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+										</div>
+									</div>
+
+									<!-- comment item -->
+									<div class="comment">
+
+										<!-- user-avatar -->
+										<span class="user-avatar">
+											<img class="pull-left media-object" src="assets/images/avatar.png" width="64" height="64" alt="">
+										</span>
+
+										<div class="media-body">
+											<a href="#commentForm" class="scrollTo replyBtn">reply</a>
+											<h4 class="media-heading bold">Diana Doe</h4>
+											<small class="block">June 29, 2014 - 11:23</small>
+											Proin eget tortor risus. Cras ultricies ligula sed magna dictum porta. Pellentesque in ipsum id orci porta dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+										</div>
+									</div>
+
+									<!-- comment item -->
+									<div class="comment">
+
+										<!-- user-avatar -->
+										<span class="user-avatar">
+											<img class="media-object" src="assets/images/avatar.png" width="64" height="64" alt="">
+										</span>
+
+										<div class="media-body">
+											<a href="#commentForm" class="scrollTo replyBtn">reply</a>
+											<h4 class="media-heading bold">Melissa Doe</h4>
+											<small class="block">June 29, 2014 - 11:23</small>
+											Proin eget tortor risus. Cras ultricies ligula sed magna dictum porta. Pellentesque in ipsum id orci porta dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+
+											<!-- comment reply -->
+											<div class="media">
+
+												<!-- user-avatar -->
+												<span class="user-avatar">
+													<img class="media-object" src="assets/images/avatar.png" width="64" height="64" alt="">
+												</span>
+
+												<div class="media-body">
+													<h4 class="media-heading bold">Peter Doe</h4>
+													<small class="block">June 29, 2014 - 11:23</small>
+													Proin eget tortor risus. Cras ultricies ligula sed magna dictum porta. Pellentesque in ipsum id orci porta dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+												</div>
+											</div>
+
+										</div>
+									</div>
+
+									<hr /><!-- separator -->
+
+									<h4>
+										Leave a reply
+										<small class="block fsize13 font300">Your email address will not be published.</small>
+									</h4>
+
+									<!-- COMMENT FORM -->
+									<form id="commentForm" class="form-horizontal" method="post" action="#">
+										<div class="row">
+
+											<!-- name -->
+											<div class="col-md-4">
+												<label>Name *</label>
+												<input required class="form-control input-lg" type="text" name="author" id="author" value="" />
+											</div>
+
+											<!-- email -->
+											<div class="col-md-4">
+												<label>Email *</label>
+												<input required class="form-control input-lg" type="text" name="email" id="email" value="" />
+											</div>
+
+											<!-- website -->
+											<div class="col-md-4">
+												<label>Website</label>
+												<input class="form-control input-lg" type="text" name="url" id="url" value="" />
+											</div>
+
+										</div>
+
+										<div class="row">
+
+											<!-- comment -->
+											<div class="col-md-12">
+												<textarea required class="form-control input-lg" id="comment" name="comment" rows="5"></textarea>
+											</div><br />
+
+											<!-- code info -->
+											<div class="col-md-12 font300 fsize14">
+												<p>Allowed HTML tags: &lt;a href=&quot;&quot; title=&quot;&quot;&gt; &lt;abbr title=&quot;&quot;&gt; &lt;acronym title=&quot;&quot;&gt; &lt;b&gt; &lt;blockquote cite=&quot;&quot;&gt; &lt;cite&gt; &lt;code&gt; &lt;del datetime=&quot;&quot;&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=&quot;&quot;&gt; &lt;strike&gt; &lt;strong&gt; </p>
+												<p>Inappropriate and irrelevant comments will be removed at an admin's discretion.<br /> Your email is used for verification purposes only, it will never be shared.</p>
+											</div>
+										
+											<!-- btn -->
+											<div class="col-md-12">
+												<p>
+													<button class="btn btn-primary">Post Comment</button>
+												</p>
+											</div>
+
+											<!-- subscribe -->
+											<div class="col-md-12 fsize16">
+												<p>
+													<input type="checkbox" name="subscribe_comments" id="subscribe_comments" value="subscribe" />  
+													<label for="subscribe_comments">Notify me of follow-up comments by email.</label>
+													<br />
+													<input type="checkbox" name="subscribe_blog" id="subscribe_blog" value="subscribe" /> 
+													<label for="subscribe_blog">Notify me of new posts by email.</label>
+												</p>
+											</div>
+
+										</div>
+
+									</form>
+									<!-- /COMMENT FORM -->
+
+								</div>
+							</div>
+						</div>
+						<!-- /COMMENTS -->
 
 					</div>
+					<!-- /center column -->
 
-					<div class="col-md-6">
-						<div class="owl-carousel controlls-over" data-plugin-options='{"items": 1, "singleItem": true, "navigation": true, "pagination": true, "transitionStyle":"fadeUp"}'>
-							<div>
-								<img alt="" class="img-responsive" src="assets/images/demo/test_2.jpg">
-							</div>
-							<div>
-								<img alt="" class="img-responsive" src="assets/images/demo/test_1.jpg">
+					<!-- right column -->
+					<div class="col-md-3">
+
+						<!-- HOT -->
+						<h3 class="page-header nomargin-top">
+							Today's <strong class="styleColor">Hot</strong>
+						</h3>
+
+						<!-- No #1 Hot -->
+						<div class="item-box nomargin-top">
+							<figure>
+								<a class="item-hover" href="magazine-single.html">
+									<span class="overlay color2"></span>
+									<span class="inner">
+										<span class="block fa fa-plus fsize20"></span>
+										<strong>READ</strong> ARTICLE
+									</span>
+								</a>
+								<img alt="" class="img-responsive" src="assets/images/demo/magazine/article/thumb_7.jpg" />
+							</figure>
+							<div class="item-box-desc">
+								<small>29 June 2014, 08:33</small>
+								<h4 class="wrap"><a class="styleColor" href="#">World's most polluted...</a></h4>
 							</div>
 						</div>
+						<!-- /No #1 Hot -->
+
+						<!-- video -->
+						<iframe src="http://player.vimeo.com/video/23630702" width="800" height="450"></iframe>
+						<h5 class="font300 padding10">
+							<i class="fa fa-comments styleSecondColor"></i> <a href="#">Comment this video</a> 
+							<small class="pull-right">(0 comments)</small>
+						</h5>
+						<!-- /video -->
+
+						<!-- small articles -->
+						<div class="row">
+							<div class="col-xs-6 col-md-6">
+								<a href="#">
+									<img alt="" class="img-responsive" src="assets/images/demo/magazine/article/thumb_3.jpg" />
+									<h6 class="fsize12 font300 padding6 styleSecondColor">Horses hypnotized by the sea</h6>
+								</a>							
+							</div>
+							<div class="col-xs-6 col-md-6">
+								<a href="#">
+									<img alt="" class="img-responsive" src="assets/images/demo/magazine/article/thumb_4.jpg" />
+									<h6 class="fsize12 font300 padding6 styleSecondColor">Sochi protesters fight to be heard</h6>
+								</a>							
+							</div>
+						</div>
+						<!-- /small articles -->
+
+
+						<!-- LATEST -->
+						<h3 class="page-header">
+							<strong class="styleColor">Read</strong> this, <strong class="styleColor">watch</strong> that
+						</h3>
+
+						<div class="panel-group" id="accordion">
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title">
+										<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+											<i class="fa fa-heart-o"></i>
+											Most readed
+										</a>
+									</h4>
+								</div>
+								<div id="collapseOne" class="accordion-body collapse in">
+									<div class="panel-body">
+										<ul class="list-icon angle-right">
+											<li><a href="#">Boulder smashes through Italian farm</a></li>
+											<li><a href="#">Fall in eurozone inflation rate fuels deflation concerns</a></li>
+											<li><a href="#">Australia to dump dredged sand in Great Barrier Reef Park</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title">
+										<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+											<i class="fa fa-star"></i>
+											Most Rated
+										</a>
+									</h4>
+								</div>
+								<div id="collapseTwo" class="accordion-body collapse">
+									<div class="panel-body">
+										<ul class="list-icon angle-right">
+											<li><a href="#">Boulder smashes through Italian farm</a></li>
+											<li><a href="#">Fall in eurozone inflation rate fuels deflation concerns</a></li>
+											<li><a href="#">Australia to dump dredged sand in Great Barrier Reef Park</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title">
+										<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+											<i class="fa fa-comment"></i>
+											Most Commented
+										</a>
+									</h4>
+								</div>
+								<div id="collapseThree" class="accordion-body collapse">
+									<div class="panel-body">
+										<ul class="list-icon angle-right">
+											<li><a href="#">Boulder smashes through Italian farm</a></li>
+											<li><a href="#">Fall in eurozone inflation rate fuels deflation concerns</a></li>
+											<li><a href="#">Australia to dump dredged sand in Great Barrier Reef Park</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- TWEETS -->
+						<h3 class="page-header">
+							<i class="fa fa-twitter"></i> 
+							Latest <strong class="styleColor">Tweets</strong> 
+						</h3>
+
+						<p>
+							<a href="#">@tweetuser</a> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+							<small class="block styleColor">12 hours ago</small>
+						</p>
+						<p>
+							<a href="#">@tweetuser</a> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+							<small class="block styleColor">12 hours ago</small>
+						</p>
+						<p>
+							<a href="#">@tweetuser</a> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+							<small class="block styleColor">12 hours ago</small>
+						</p>
+
+						<!-- SOCIALS -->
+						<h3 class="page-header">
+							<i class="fa fa-twitter"></i> 
+							<strong class="styleColor">Follow</strong> Us
+						</h3>
+
+						<a href="#" class="social fa fa-facebook"></a>
+						<a href="#" class="social fa fa-twitter"></a>
+						<a href="#" class="social fa fa-google-plus"></a>
+						<a href="#" class="social fa fa-linkedin"></a>
+						<a href="#" class="social fa fa-pinterest"></a>
+						<a href="#" class="social fa fa-flickr"></a>
+
 					</div>
+					<!-- /right column -->
 
 				</div>
-			</section>
-			<!-- /CAROUSEL -->
 
 
-			<!-- CALLOUT -->
-			<div class="bs-callout margin-top text-center styleBackground noradius">
-				<h3>Welcome to <strong>Atropos</strong> Multipurpose <strong>template</strong>.
-				<a href="https://wrapbootstrap.com/theme/atropos-responsive-website-template-WB05SR527" target="_blank" class="btn btn-primary btn-lg">Buy Now!</a></h3>
+				<hr /><!-- separator -->
+
+
+				<h2><strong>Related</strong> News</h2>
+
+
+				<!-- FOUR COLUMNS -->
+				<div class="row">
+
+					<div class="col-md-3">
+
+						<!-- article item -->
+						<div class="item-box">
+							<figure>
+								<a class="item-hover" href="magazine-single.html">
+									<span class="overlay color2"></span>
+									<span class="inner">
+										<span class="block fa fa-plus fsize20"></span>
+										<strong>READ</strong> ARTICLE
+									</span>
+								</a>
+								<img alt="" class="img-responsive" src="assets/images/demo/magazine/article/thumb_1.jpg" width="263" height="147" />
+							</figure>
+							<div class="item-box-desc">
+								<h4>Chinese New Year by the numbers</h4>
+								<small>29 June 2014, 9:55</small>
+								<p>Billions of people travel in China during Lunar New Year. Check out the mind-boggling figures.</p>
+							</div>
+						</div>
+						<!-- /article item -->
+
+					</div>
+
+
+					<div class="col-md-3">
+
+						<!-- article item -->
+						<div class="item-box">
+							<figure>
+								<a class="item-hover" href="magazine-single.html">
+									<span class="overlay color2"></span>
+									<span class="inner">
+										<span class="block fa fa-plus fsize20"></span>
+										<strong>READ</strong> ARTICLE
+									</span>
+								</a>
+								<img alt="" class="img-responsive" src="assets/images/noimg.png" width="263" height="147" />
+							</figure>
+							<div class="item-box-desc">
+								<h4>Chinese New Year by the numbers</h4>
+								<small>29 June 2014, 9:55</small>
+								<p>Billions of people travel in China during Lunar New Year. Check out the mind-boggling figures.</p>
+							</div>
+						</div>
+						<!-- /article item -->
+
+					</div>
+
+					<div class="col-md-3">
+
+						<!-- article item -->
+						<div class="item-box">
+							<figure>
+								<a class="item-hover" href="magazine-single.html">
+									<span class="overlay color2"></span>
+									<span class="inner">
+										<span class="block fa fa-plus fsize20"></span>
+										<strong>READ</strong> ARTICLE
+									</span>
+								</a>
+								<img alt="" class="img-responsive" src="assets/images/demo/magazine/article/thumb_3.jpg" width="263" height="147" />
+							</figure>
+							<div class="item-box-desc">
+								<h4>Chinese New Year by the numbers</h4>
+								<small>29 June 2014, 9:55</small>
+								<p>Billions of people travel in China during Lunar New Year. Check out the mind-boggling figures.</p>
+							</div>
+						</div>
+						<!-- /article item -->
+
+					</div>
+
+
+					<div class="col-md-3">
+
+						<!-- article item -->
+						<div class="item-box">
+							<figure>
+								<a class="item-hover" href="magazine-single.html">
+									<span class="overlay color2"></span>
+									<span class="inner">
+										<span class="block fa fa-plus fsize20"></span>
+										<strong>READ</strong> ARTICLE
+									</span>
+								</a>
+								<img alt="" class="img-responsive" src="assets/images/demo/magazine/article/thumb_4.jpg" width="263" height="147" />
+							</figure>
+							<div class="item-box-desc">
+								<h4>Chinese New Year by the numbers</h4>
+								<small>29 June 2014, 9:55</small>
+								<p>Billions of people travel in China during Lunar New Year. Check out the mind-boggling figures.</p>
+							</div>
+						</div>
+						<!-- /article item -->
+
+					</div>
+
+					<!-- /article item -->
+				</div>
+				<!-- /FOUR COLUMNS -->
+
+
 			</div>
-			<!-- /CALLOUT -->
-
-
-
-			<!-- PARALLAX -->
-			<section class="parallax delayed margin-footer" data-stellar-background-ratio="0.7" style="background-image: url('assets/images/demo/parallax.jpg');">
-				<span class="overlay"></span>
-
-				<div class="container">
-
-					<div class="row">
-						<!-- left content -->
-						<div class="col-md-7 animation_fade_in">
-							<h2>Atropos <strong>Multipurpose</strong></h2>
-							<p class="lead">
-								Atropos is a multipurpose template for business or portfolio website. It is fully responsive design ready for PC, Tablet and Mobile.
-							</p>
-							<p>
-								 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque. Ut enim massa, sodales tempor convallis et, iaculis ac massa.
-							</p>
-							<p>
-								<small><em> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc.</em></small>
-							</p>
-
-							<a class="btn btn-primary btn-lg" href="index-more.html">Tell Me More</a>
-						</div>
-
-						<!-- right image -->
-						<div class="col-md-5 animation_fade_in">
-							<img class="visible-md visible-lg img-responsive pull-right" src="assets/images/demo/desktop2.png" alt="" />
-						</div>
-					</div>
-				</div>
-			</section>
-			<!-- PARALLAX -->
-
 		</div>
 		<!-- /WRAPPER -->
 
@@ -1121,13 +1065,7 @@
 		<script type="text/javascript" src="assets/plugins/jquery.backstretch.min.js"></script>
 		<script type="text/javascript" src="assets/plugins/superslides/dist/jquery.superslides.min.js"></script>
 		<script type="text/javascript" src="assets/plugins/styleswitcher/styleswitcher.js"></script><!-- STYLESWITCHER - REMOVE ON PRODUCTION/DEVELOPMENT -->
-		<script type="text/javascript" src="assets/plugins/mediaelement/build/mediaelement-and-player.min.js"></script>
-
-		<!-- REVOLUTION SLIDER -->
-		<script type="text/javascript" src="assets/plugins/revolution-slider/js/jquery.themepunch.plugins.min.js"></script>
-		<script type="text/javascript" src="assets/plugins/revolution-slider/js/jquery.themepunch.revolution.min.js"></script>
-		<script type="text/javascript" src="assets/js/slider_revolution.js"></script>
-
+		
 
 		<script type="text/javascript" src="assets/js/scripts.js"></script>
 
